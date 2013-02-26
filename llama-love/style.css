@@ -53,4 +53,33 @@ table {
 
 /* END RESET */
 
+body {
+	font-family:"gill sans";
+	}
+img {
+	float:left;
+	width:300px;
+	margin:0px 10px 10px 10px;
+	}
+article {
+	width:45%;
+	margin:30px;
+	float:left;
+	}
+h1 {
+	font-size:30px;
+	font-weight:bold;
+	letter-spacing:1px;
+	font-family:"gotham htf";
+	text-transform:uppercase;
+	}
+h2 {
+	font-size:14px;
+	color:#a5a5a5;
+	letter-spacing:.5px;
+	padding:10px 0px;
+	}
+p {
+	text-indent:20px;
+	}
 
