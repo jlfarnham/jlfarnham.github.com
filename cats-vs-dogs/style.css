@@ -75,6 +75,7 @@ html[xmlns] .clearfix { display: block; }
 
 /* END RESET */
 
+
 h1 a {
 	display:block;  
 	width:445px; 
@@ -83,4 +84,66 @@ h1 a {
 	text-indent:-9999px;
  }
 
-
+li a{
+ 	float:left;
+ 	text-decoration:none;
+ 	color:white;
+ 	padding:15px 30px;
+ 	background-color:black;
+ 	font-family:courier;
+ 	font-size:14px;
+ 	}
+ h2 {
+ 	font-size:24px;
+ 	color:#f54b4b;
+ 	text-align:center;
+ 	font-family:helvetica;
+ 	text-transform:uppercase;
+ 	letter-spacing:2px;
+ 	}
+footer {
+	clear:left;
+	margin:20px;
+	font-size:14px;
+	color:white;
+	background-color:black;
+	padding:10px;
+	font-family:courier;
+	} 
+a:link {
+	color:white;
+	text-decoration:none;
+	}
+a:visited {
+	color:#f54b4b;
+	text-decoration:none;
+	}
+a:hover {
+	color:white;
+	text-decoration:none;
+	}	
+section p {
+ 	line-height:1.2em;
+ 	font-family:courier;
+ 	padding:20px;
+ 	}
+#dog {
+	width:50%;
+	float:left;
+	clear:left;
+	margin: 10px auto;
+	width:45%;
+	}
+#cat {
+	width:50%;
+	float:left;
+	margin: 10px auto;
+	width:45%;
+	}
+img.centered-image {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
