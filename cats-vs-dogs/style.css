@@ -75,4 +75,12 @@ html[xmlns] .clearfix { display: block; }
 
 /* END RESET */
 
+h1 a {
+	display:block;  
+	width:445px; 
+	height:95px;  
+	background:url(images/dogvscat-logo.gif) no-repeat top left; 
+	text-indent:-9999px;
+ }
+
 
