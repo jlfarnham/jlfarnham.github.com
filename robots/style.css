@@ -49,4 +49,82 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*end reset*/
 
+body {
+	width:100%;
+}
+
+#site-wrapper {
+	background-color:lightgreen;
+}
+
+header {
+	position:relative;
+	height:200px;
+	margin:0 auto;
+	width:960px;
+	background-color:orange;
+}
+
+header h1 {
+	position:absolute;
+	top:50px;
+	left:50px;
+	background-color:red;
+}
+
+header nav {
+	position:absolute;
+	background-color:teal;
+	right:0px;
+}
+
+#menu-wrapper {
+	background-color:chocolate;
+}
+
+#main-menu {
+	background-color:teal;
+	position:relative;
+	height:50px;
+	width:960px;
+	margin:0 auto;
+}
+
+#main-menu li{
+	float:left;
+	padding:10px;
+	background-color:yellow;
+	margin:2px;
+}
+#content {
+	width:960px;
+	margin:0 auto;
+}
+#page {
+	float:left;
+	width:50%;
+	background-color:magenta;
+}
+
+#sidebar {
+	float:left;
+	width:30%;
+	background-color:chartreuse;
+}
+
+#footer-wrapper {
+	clear:both;
+	background-color:brown;
+	height:100px;
+}
+
+#site-footer {
+	background-color:aqua;
+	clear:both;
+	position:relative;
+	bottom:0;
+	width:960px;
+	margin:0 auto;
+}

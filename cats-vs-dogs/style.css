@@ -75,44 +75,80 @@ html[xmlns] .clearfix { display: block; }
 
 /* END RESET */
 
+body {
+	font-family:georgia;
+	}
+	
+header {
+	position:relative;
+	height:200px;
+	width:960px;
+	margin:0 auto;
+	}
 
-h1 a {
-	display:block;  
-	width:445px; 
-	height:95px;  
+header h1 {
+	position:absolute;
+	left:270px;
+	top:30px;
+	}
+
+header nav {
+	position:absolute;
+	width:960px;
+	bottom:0;
+	text-align:center;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	}
+
+header h1 a {
+	width:445px;
+	height:95px;
 	background:url(images/dogvscat-logo.gif) no-repeat top left; 
 	text-indent:-9999px;
+	display:block;
  	}
 
-li a{
- 	float:left;
- 	text-decoration:none;
- 	color:white;
- 	padding:15px 30px;
- 	background-color:black;
- 	font-family:governor;
- 	font-size:14px;
- 	letter-spacing:1px;
- 	}
+header li {
+	display:inline-block;
+	padding:10px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:20px;
+	letter-spacing:1px;
+	}
+
+section {
+	width:960px;
+	margin:0 auto;
+	}
+	
+#dog {
+	float:left;
+	margin:20px;
+	width:45%;
+	}
+	
+#cat {
+	float:left;
+	margin:20px;
+	width:45%;
+	}
+img.centered-image {
+	display:block;
+	width:450px;
+	margin:10px auto;
+	}
+	
  h2 {
  	font-size:24px;
- 	color:#f54b4b;
- 	text-align:center;
- 	font-family:governor;
- 	text-transform:uppercase;
- 	letter-spacing:2px;
+ 	font-weight:bold;
+	padding:10px 0px;
  	}
-footer {
-	clear:left;
-	margin:20px;
-	font-size:14px;
-	color:white;
-	background-color:black;
-	padding:10px;
-	font-family:courier;
-	} 
+
 a:link {
-	color:white;
+	color:black;
 	text-decoration:none;
 	}
 a:visited {
@@ -120,31 +156,33 @@ a:visited {
 	text-decoration:none;
 	}
 a:hover {
-	color:white;
+	color:#f54b4b;
 	text-decoration:none;
-	}	
+	}
+		
 section p {
- 	line-height:1.2em;
- 	font-family:courier;
- 	padding:20px;
+ 	line-height:1.3em;
+	font-size:14px;
  	}
-#dog {
-	width:50%;
-	float:left;
-	clear:left;
-	margin: 10px auto;
-	width:45%;
+
+footer {
+	clear:both;
+	position:relative;
+	width:960px;
+	margin:0 auto;
+	font-size:12px;
+	border-top:3px solid black;
 	}
-#cat {
-	width:50%;
-	float:left;
-	margin: 10px auto;
-	width:45%;
-	}
-img.centered-image {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:20px;
-	margin-bottom:20px;
-	}
+
+#wiki-commons {
+	position:absolute;
+	left:18px;
+	padding:20px 0px;
+}
+
+#copyright {
+	position:absolute;
+	right:18px;
+	padding:20px 0px;
+}
+
