@@ -53,6 +53,8 @@ table {
 
 body {
 	width:100%;
+	font-family:helvetica;
+	font-size:14px;
 }
 
 #site-wrapper {
@@ -106,12 +108,16 @@ header nav {
 	float:left;
 	width:50%;
 	background-color:magenta;
+	margin:10px 0px;
+	padding:10px 10px 10px 0px;
 }
 
 #sidebar {
 	float:left;
 	width:30%;
 	background-color:chartreuse;
+	margin:10px;
+	padding:10px;
 }
 
 #footer-wrapper {
@@ -127,4 +133,14 @@ header nav {
 	bottom:0;
 	width:960px;
 	margin:0 auto;
+}
+
+#footer-contact {
+	position:absolute
+	left:0;
+}
+
+#footer-follow {
+	position:absolute
+	right:0;
 }
