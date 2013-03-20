@@ -76,7 +76,7 @@ h1, h2 {
 
 header {
 	position:relative;
-	height:150px;
+	height:140px;
 	margin:0 auto;
 	width:960px;
 	background-color:orange;
@@ -84,10 +84,19 @@ header {
 
 header h1 {
 	position:absolute;
-	top:50px;
-	left:50px;
+	top:0;
+	left:0;
+	margin:10px;
 	background-color:red;
 	}
+
+#site-header h1 a {
+	width:306px;
+	height:123px;
+	background:url(images/logo.png) no-repeat top left; 
+	text-indent:-9999px;
+	display:block;
+ 	}
 
 header nav {
 	position:absolute;
