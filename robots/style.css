@@ -53,10 +53,21 @@ table {
 
 
 
+
+
+
 body {
 	width:100%;
-	font-family:verdana;
+	font-family:"gill sans";
 	font-size:14px;
+	line-height:1.2em;
+	}
+
+h1, h2 {
+	font-family:"helvetica neue";
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#895b35;
 	}
 
 #site-wrapper {
@@ -82,8 +93,8 @@ header nav {
 	position:absolute;
 	background-color:teal;
 	right:0px;
-	top:5px;
 	font-size:12px;
+	margin:10px;
 	}
 
 #menu-wrapper {
@@ -102,9 +113,10 @@ header nav {
 	float:left;
 	padding:5px;
 	background-color:yellow;
-	margin:3px 10px;
-	font-weight:bold;
+	margin:2px 10px;
 	text-transform:uppercase;
+	font-weight:bold;
+	font-family:"helvetica neue";
 	}
 	
 #content {
@@ -116,27 +128,31 @@ header nav {
 	float:left;
 	width:50%;
 	background-color:magenta;
-	margin:10px 0px;
+	margin:10px 10px;
 	padding:10px 10px 10px 0px;
 	}
 
 #page h1 {
 	font-size:36px;
-	text-transform:uppercase;
+	line-height:1em;
 	}
 
+p {
+	margin-bottom:1em;
+	}
+	
 #sidebar {
 	float:right;
 	width:30%;
 	background-color:chartreuse;
-	margin:10px 0px;
+	margin:10px;
 	padding:10px 0px 10px 10px;
 	}
 
 #footer-wrapper {
 	clear:both;
 	background-color:#895b35;
-	height:100px;
+	height:150px;
 	}
 
 #site-footer {
@@ -144,9 +160,13 @@ header nav {
 	clear:both;
 	position:relative;
 	bottom:0;
-	height:200px;
+	height:150px;
 	width:960px;
 	margin:0 auto;
+	}
+
+#site-footer h1 {
+	color:#cdc2ac;
 	}
 
 #footer-contact {
@@ -154,8 +174,12 @@ header nav {
 	left:0;
 	width:120px;
 	display:inline-block;
-	margin: 10px 0px;
+	margin: 10px;
 	background-color:salmon;
+	}
+
+#footer-contact p {
+	color:white;
 	}
 
 #footer-follow {
@@ -165,11 +189,38 @@ header nav {
 	display:inline-block;
 	text-align:center;
 	background-color:navy;
-	margin:10px 0px;
+	margin:10px;
 	padding:0px 10px 0px 0px;
 	}
 
 #footer-follow li {
 	float:left;
 	padding: 10px 0px;
+	}
+
+a:link {
+	color:#895b35;
+	text-decoration:none;
+	}
+a:visited {
+	color:#895b35;
+	text-decoration:none;
+	}
+a:hover {
+	color:#ebf2d5;
+	text-decoration:none;
+	}
+
+/* MAIN NAV LINKS */
+#main-menu a:link {
+	color:white;
+	text-decoration:none;
+	}
+#main-menu a:visited {
+	color:white;
+	text-decoration:none;
+	}
+#main-menu a:hover {
+	color:#ebf2d5;
+	text-decoration:none;
 	}
