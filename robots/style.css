@@ -79,7 +79,6 @@ header {
 	height:140px;
 	margin:0 auto;
 	width:960px;
-	background-color:orange;
 	}
 
 header h1 {
@@ -87,7 +86,6 @@ header h1 {
 	top:0;
 	left:0;
 	margin:10px;
-	background-color:red;
 	}
 
 #site-header h1 a {
@@ -100,7 +98,6 @@ header h1 {
 
 header nav {
 	position:absolute;
-	background-color:teal;
 	right:0px;
 	font-size:12px;
 	margin:10px;
@@ -111,7 +108,6 @@ header nav {
 	}
 
 #main-menu {
-	background-color:teal;
 	position:relative;
 	height:30px;
 	width:960px;
@@ -121,7 +117,6 @@ header nav {
 #main-menu li{
 	float:left;
 	padding:5px;
-	background-color:yellow;
 	margin:2px 10px;
 	text-transform:uppercase;
 	font-weight:bold;
@@ -136,14 +131,13 @@ header nav {
 #page {
 	float:left;
 	width:50%;
-	background-color:magenta;
 	margin:10px 10px;
 	padding:10px 10px 10px 0px;
 	}
 
 #page h1 {
 	font-size:36px;
-	line-height:1em;
+	line-height:1.3em;
 	}
 
 p {
@@ -153,7 +147,6 @@ p {
 #sidebar {
 	float:right;
 	width:30%;
-	background-color:chartreuse;
 	margin:10px;
 	padding:10px 0px 10px 10px;
 	}
@@ -165,7 +158,6 @@ p {
 	}
 
 #site-footer {
-	background-color:aqua;
 	clear:both;
 	position:relative;
 	bottom:0;
@@ -184,7 +176,6 @@ p {
 	width:120px;
 	display:inline-block;
 	margin: 10px;
-	background-color:salmon;
 	}
 
 #footer-contact p {
@@ -197,7 +188,6 @@ p {
 	width:30%;
 	display:inline-block;
 	text-align:center;
-	background-color:navy;
 	margin:10px;
 	padding:0px 10px 0px 0px;
 	}
