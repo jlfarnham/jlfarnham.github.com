@@ -87,6 +87,7 @@ html[xmlns] .clearfix { display: block; }
 	
 body {
 	font-family:georgia;
+	width:100%;
 	}
 	
 header {
@@ -163,7 +164,7 @@ a:link {
 	text-decoration:none;
 	}
 a:visited {
-	color:#f54b4b;
+	color:black;
 	text-decoration:none;
 	}
 a:hover {
