@@ -55,9 +55,17 @@ body {
 	background-color:gray;
 	}
 
+header {
+	position:fixed;
+	background-color:white;
+	width:100%;
+	top:0;
+	height:150px;
+	}
+
 #main-content {
 	width:95%;
-	margin:0 auto;
+	margin:175px auto;
 	background-color:yellow;
 	}
 	
@@ -96,18 +104,19 @@ body {
 	float:left;
 	}
 
+h2 {
+	;
+	}
+
 img.thumbnail {
 	float:left;
-	width:30%;
+	width:31%;
 	margin:1%
 	}
 
+	
 footer {
 	position:fixed;
 	bottom:1%;
 	left:1%;
-	}
-
-.hover_caption {
-	background-color: rgba(0, 0, 0, 0.7);
 	}
