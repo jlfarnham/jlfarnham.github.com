@@ -52,26 +52,29 @@ table {
 body {
 	width:100%
 	max-width:1024px;
+	background-color:gray;
 	}
 
 #main-content {
 	width:95%;
 	margin:0 auto;
+	background-color:yellow;
 	}
+	
+	
+	
+/* Image Slider Start*/	
+
 .image-content {
-	width:60%;
-	}
-
-#work {
-	width:100%;
-	margin:0 auto;
-	}
-
-img.thumbnail {
 	float:left;
-	width:30%;
-	margin:1%
+	background-color:red;
+	width:800px;
 	}
+	
+.simpleSlidewindow {
+	float:left;
+	}
+
 	
 .left-button {
 	float:left;
@@ -80,8 +83,31 @@ img.thumbnail {
 .right-button {
 	float:left;
 	}
+	
+/* Image Slider End*/	
+
+
 
 .project-description {
-	width:20%;
+	background-color:blue;
+	width:30%;
+	padding:1%;
+	margin:1%;
 	float:left;
+	}
+
+img.thumbnail {
+	float:left;
+	width:30%;
+	margin:1%
+	}
+
+footer {
+	position:fixed;
+	bottom:1%;
+	left:1%;
+	}
+
+.hover_caption {
+	background-color: rgba(0, 0, 0, 0.7);
 	}
