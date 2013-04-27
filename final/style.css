@@ -54,14 +54,12 @@ body {
 	max-width:1024px;
 	}
 
-img, iframe {
-	width:70%;
-	margin:1%;
-	}
-
 #main-content {
 	width:95%;
 	margin:0 auto;
+	}
+.image-content {
+	width:60%;
 	}
 
 #work {
@@ -73,4 +71,17 @@ img.thumbnail {
 	float:left;
 	width:30%;
 	margin:1%
+	}
+	
+.left-button {
+	float:left;
+	}
+	
+.right-button {
+	float:left;
+	}
+
+.project-description {
+	width:20%;
+	float:left;
 	}
