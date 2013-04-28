@@ -3,10 +3,21 @@
 	<head>
 		<title>Juliana Farnham</title>
 		<link rel="stylesheet" type="text/css" href="../style.css" />
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.simpleSlide.js" ></script>
+        <script type="text/javascript">
+        $(document).ready( function(){ 
+        	simpleSlide({
+        	'set_speed': 300,
+			'swipe': 'false',
+			});
+    	});
+		</script>
 	</head>
 	<body>
 		<header>
-			<nav id="main-nav">
+			<nav class="main-nav">
 				<ul>
 					<li><a href="../index.html">home</a></li>
 					<li><a href="../portfolio.html">portfolio</a></li>
@@ -14,31 +25,58 @@
 				</ul>
 			</nav>
 			<h1>Juliana Farnham Designs</h1>
-			<nav id="second-nav">
-				<ul>
-					<li><a href="#">all</a></li>
-					<li><a href="#">info architecture</a></li>
-					<li><a href="#">graphic design</a></li>
-					<li><a href="#">ad design</a></li>
-					<li><a href="#">books and magazines</a></li>
-				</ul>
-			</nav>
 		</header>
-		<section id="main-content">
-			<article id="project-container">
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_01.jpg" alt="How Species Interact 1"/>
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_02.jpg" alt="How Species Interact 2"/>
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_03.jpg" alt="How Species Interact 3"/>
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_04.jpg" alt="How Species Interact 4"/>
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_05.jpg" alt="How Species Interact 5"/>
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_06.jpg" alt="How Species Interact 6"/>
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_07.jpg" alt="How Species Interact 7"/>
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_08.jpg" alt="How Species Interact 8"/>
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_09.jpg" alt="How Species Interact 9"/>
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_10.jpg" alt="How Species Interact 10"/>
-				<img src="../images/books-mags/ecology-book/Ecology-Book_Page_11.jpg" alt="How Species Interact 11"/>
+		<section class="main-content">
+			<article class="image-content">
+			
+				<div class="left-button" rel="0">
+					<img src="../images/left-arrow.png" alt="left-arrow"/>
+				</div>
+				
+				<div class="simpleSlide-window" rel="0">
+        			<div class="simpleSlide-tray" rel="0">
+        				<div class="simpleSlide-slide" rel="0">
+        					<img src="../images/books-mags/ecology-book/Ecology-Book_Page_01.jpg" width="750" alt="How Species Interact"/>
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/books-mags/ecology-book/Ecology-Book_Page_02.jpg" width="750" alt="How Species Interact"/>	
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/books-mags/ecology-book/Ecology-Book_Page_03.jpg" width="750" alt="How Species Interact"/>	
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/books-mags/ecology-book/Ecology-Book_Page_04.jpg" width="750" alt="How Species Interact"/>	
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/books-mags/ecology-book/Ecology-Book_Page_05.jpg" width="750" alt="How Species Interact"/>	
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/books-mags/ecology-book/Ecology-Book_Page_06.jpg" width="750" alt="How Species Interact"/>	
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/books-mags/ecology-book/Ecology-Book_Page_07.jpg" width="750" alt="How Species Interact"/>	
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/books-mags/ecology-book/Ecology-Book_Page_08.jpg" width="750" alt="How Species Interact"/>	
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/books-mags/ecology-book/Ecology-Book_Page_09.jpg" width="750" alt="How Species Interact"/>	
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/books-mags/ecology-book/Ecology-Book_Page_10.jpg" width="750" alt="How Species Interact"/>	
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/books-mags/ecology-book/Ecology-Book_Page_11.jpg" width="750" alt="How Species Interact"/>	
+        				</div>
+        			</div>
+        		</div>
+        		
+        		<div class="right-button" rel="0">
+					<img src="../images/right-arrow.png" alt="right-arrow"/>
+				</div>
 			</article>
-			<article id="project-description">
+			
+			<article class="project-description">
 				<h2>How Species Interact</h2>
 				<h3>Book</h3>
 				<h4>Fall 2012</h4>

@@ -3,6 +3,17 @@
 	<head>
 		<title>Juliana Farnham</title>
 		<link rel="stylesheet" type="text/css" href="../style.css" />
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.simpleSlide.js" ></script>
+        <script type="text/javascript">
+        $(document).ready( function(){ 
+        	simpleSlide({
+        	'set_speed': 300,
+			'swipe': 'false',
+			});
+    	});
+		</script>
 	</head>
 	<body>
 		<header>
@@ -14,23 +25,32 @@
 				</ul>
 			</nav>
 			<h1>Juliana Farnham Designs</h1>
-			<nav id="second-nav">
-				<ul>
-					<li><a href="#">all</a></li>
-					<li><a href="#">info architecture</a></li>
-					<li><a href="#">graphic design</a></li>
-					<li><a href="#">ad design</a></li>
-					<li><a href="#">books and magazines</a></li>
-				</ul>
-			</nav>
 		</header>
-		<section id="main-content">
-			<article id="project-container">
-				<img src="../images/info-architecture/show-diagram.jpg" alt="100 Shows Diagram"/>
-				<iframe src="http://player.vimeo.com/video/62497484?byline=0&amp;portrait=0&amp;color=ffffff" width="800" height="600" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-				<iframe src="http://player.vimeo.com/video/64458171?byline=0&amp;portrait=0&amp;color=ffffff" width="800" height="588" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<section class="main-content">
+			<article class="image-content">
+				<div class="left-button" rel="0">
+					<img src="../images/left-arrow.png" alt="left-arrow"/>
+				</div>
+				
+				<div class="simpleSlide-window" rel="0">
+        			<div class="simpleSlide-tray" rel="0">
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/info-architecture/show-diagram.jpg" width="750" alt="100 Shows Diagram"/>
+						</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<iframe src="http://player.vimeo.com/video/62497484?byline=0&amp;portrait=0&amp;color=ffffff" width="750" height="600" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+						</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<iframe src="http://player.vimeo.com/video/64458171?byline=0&amp;portrait=0&amp;color=ffffff" width="750" height="588" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+						</div>
+					</div>
+				</div>
+				
+				<div class="right-button" rel="0">
+					<img src="../images/right-arrow.png" alt="right-arrow"/>
+				</div>
 			</article>
-			<article id="project-description">
+			<article class="project-description">
 				<h2>100 Television Shows</h2>
 				<h3>Diagram, Animation, and iPhone App</h3>
 				<h4>Fall 2012</h4>

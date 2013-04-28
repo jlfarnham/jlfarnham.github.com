@@ -51,25 +51,25 @@ table {
 
 body {
 	width:100%
-	max-width:1024px;
-	background-color:gray;
+	max-width:1300px;
+	margin:0 auto;
 	}
 
 header {
-	position:fixed;
-	background-color:white;
+	position:relative;
+	background-color:grey;
 	width:100%;
 	top:0;
-	height:150px;
+	height:100px;
+	margin-bottom:20px;
 	}
 
-#main-content {
-	width:95%;
-	margin:175px auto;
+.main-content {
+	width:90%;
+	margin:0 auto;
 	background-color:yellow;
 	}
-	
-	
+
 	
 /* Image Slider Start*/	
 
@@ -104,14 +104,11 @@ header {
 	float:left;
 	}
 
-h2 {
-	;
-	}
 
 img.thumbnail {
 	float:left;
-	width:31%;
-	margin:1%
+	width:30%;
+	margin:1%;
 	}
 
 	
@@ -119,4 +116,8 @@ footer {
 	position:fixed;
 	bottom:1%;
 	left:1%;
+	}
+	
+div {
+	background-color:green;
 	}

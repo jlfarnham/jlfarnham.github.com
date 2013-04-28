@@ -3,10 +3,21 @@
 	<head>
 		<title>Juliana Farnham</title>
 		<link rel="stylesheet" type="text/css" href="../style.css" />
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.simpleSlide.js" ></script>
+        <script type="text/javascript">
+        $(document).ready( function(){ 
+        	simpleSlide({
+        	'set_speed': 300,
+			'swipe': 'false',
+			});
+    	});
+		</script>
 	</head>
 	<body>
 		<header>
-			<nav id="main-nav">
+			<nav class="main-nav">
 				<ul>
 					<li><a href="../index.html">home</a></li>
 					<li><a href="../portfolio.html">portfolio</a></li>
@@ -14,23 +25,32 @@
 				</ul>
 			</nav>
 			<h1>Juliana Farnham Designs</h1>
-			<nav id="second-nav">
-				<ul>
-					<li><a href="#">all</a></li>
-					<li><a href="#">info architecture</a></li>
-					<li><a href="#">graphic design</a></li>
-					<li><a href="#">ad design</a></li>
-					<li><a href="#">books and magazines</a></li>
-				</ul>
-			</nav>
 		</header>
-		<section id="main-content">
-			<article id="project-container">
-				<img src="../images/gd/song-project/song-poster.jpg" alt="Let's Go Onomatopoeia Poster"/>
-				<img src="../images/gd/song-project/song-score.jpg" alt="Let's Go Onomatopoeia Score"/>
-				<iframe src="http://player.vimeo.com/video/62503742?byline=0&amp;portrait=0&amp;color=ffffff" width="800" height="533" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<section class="main-content">
+			<article class="main-content">
+			
+				<div class="left-button" rel="0">
+					<img src="../images/left-arrow.png" alt="left-arrow"/>
+				</div>
+				
+				<div class="simpleSlide-window" rel="0">
+        			<div class="simpleSlide-tray" rel="0">
+        				<div class="simpleSlide-slide" rel="0">
+        					<img src="../images/gd/song-project/song-poster.jpg" width="750" alt="Let's Go Onomatopoeia Poster"/>
+        				</div>
+        				<div class="simpleSlide-slide" rel="0">
+							<img src="../images/gd/song-project/song-score.jpg" width="750" alt="Let's Go Onomatopoeia Score"/>	
+        				</div>
+        			</div>
+        		</div>
+        		
+        		<div class="right-button" rel="0">
+					<img src="../images/right-arrow.png" alt="right-arrow"/>
+				</div>
+				
+				<iframe src="http://player.vimeo.com/video/62503742?byline=0&amp;portrait=0&amp;color=ffffff" width="750" height="533" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			</article>
-			<article id="project-description">
+			<article class="project-description">
 				<h2>'Let's Go' Onomatopoeia</h2>
 				<h3>Poster, Score, Animation</h3>
 				<h4>Spring 2012</h4>
