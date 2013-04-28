@@ -47,35 +47,194 @@ table {
 	border-spacing: 0;
 }
 
-/* Add Styles Here */
+/* ---------------------- BEGIN STYLES ---------------------- */
+
+
+
+/* ----------- FONTS start ----------- */	
+@font-face {
+    font-family: 'QuicksandLight';
+    src: url('fonts/quicksand/Quicksand_Light-webfont.eot');
+    src: url('fonts/quicksand/Quicksand_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/quicksand/Quicksand_Light-webfont.woff') format('woff'),
+         url('fonts/quicksand/Quicksand_Light-webfont.ttf') format('truetype'),
+         url('fonts/quicksand/Quicksand_Light-webfont.svg#QuicksandLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('fonts/quicksand/Quicksand_Book-webfont.eot');
+    src: url('fonts/quicksand/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/quicksand/Quicksand_Book-webfont.woff') format('woff'),
+         url('fonts/quicksand/Quicksand_Book-webfont.ttf') format('truetype'),
+         url('fonts/quicksand/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'QuicksandBold';
+    src: url('fonts/quicksand/Quicksand_Bold-webfont.eot');
+    src: url('fonts/quicksand/Quicksand_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/quicksand/Quicksand_Bold-webfont.woff') format('woff'),
+         url('fonts/quicksand/Quicksand_Bold-webfont.ttf') format('truetype'),
+         url('Quicksand_Bold-webfont.svg#QuicksandBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+/* ----------- FONTS end ----------- */
+
+
 
 body {
 	width:100%
 	max-width:1300px;
 	margin:0 auto;
+	font-family:'QuicksandBook';
 	}
 
 header {
 	position:relative;
-	background-color:grey;
 	width:100%;
 	top:0;
-	height:100px;
-	margin-bottom:20px;
+	height:120px;
+	margin-bottom:50px;
 	}
+
+h1 {
+	position:absolute;
+	top:15px;
+	left:6%;
+	width:120px;
+	font-size:1.5em;
+	font-family:'QuicksandLight';
+	border:2px solid black;
+	text-transform:uppercase;
+	text-align:right;
+	padding:10px 10px 5px 10px;
+	background-color:black;
+	color:white;
+	}
+
+h2 {
+	font-size:1.2em;
+	font-family:"QuicksandBold";
+	text-transform:uppercase;
+	}
+
+h3 {
+	font-size:1em;
+	line-height:1.4em;
+	}
+
+h4 {
+	font-size:0.8em;
+	line-height:1.2em;
+	text-transform:uppercase;
+	}
+
+p {
+	font-size:0.8em;
+	line-height:1.3em;
+	padding:20px 0px;
+	}
+
+
+
+
+
+/* ----------- MAIN NAV start ----------- */
+
+.main-nav {
+	width:20%;
+	position:absolute;
+	right:26%;
+	top:22px;
+	font-family:"QuicksandBold";
+	}
+
+.main-nav li {
+	margin-bottom:5px;
+	padding:5px;
+	text-align:right;
+	text-transform:uppercase;
+	font-size:0.8em;
+	}
+
+.main-nav a {
+	padding:2px;
+	}
+/* ----------- MAIN NAV end ----------- */
+
+
+
+
+
+/* ----------- SECOND NAV start----------- */
+
+.second-nav {
+	z-index:999;
+	position:fixed;
+	width:20%;
+	top:15px;
+	right:5%;
+	background-color:yellow;
+	padding:5px;
+	}
+
+.second-nav li {
+	font-size:1.6em;
+	padding:5px;
+	}
+/* ----------- SECOND NAV end ----------- */
+
+
+
+
 
 .main-content {
 	width:90%;
 	margin:0 auto;
-	background-color:yellow;
+	padding-bottom:600px;
 	}
 
+.work {
+	position:relative;
+	width:75%;
+	border-top: 2px black solid;
+	}
 	
-/* Image Slider Start*/	
+
+img.thumbnail {
+	width:22%;
+	margin:1%;
+	}
+	
+
+
+
+/* ----------- PROJECT DESCRIPTIONS start ----------- */
+
+.project-description {
+	background-color:yellow;
+	width:280px;
+	padding:10px;
+	position:absolute;
+	right:5%;
+	z-index:-1;
+	}	
+/* ----------- PROJECT DESCRIPTIONS end ----------- */
+	
+	
+	
+	
+	
+/* ----------- IMAGE SLIDER Start ----------- */	
 
 .image-content {
 	float:left;
-	background-color:red;
 	width:800px;
 	}
 	
@@ -86,38 +245,112 @@ header {
 	
 .left-button {
 	float:left;
+	margin-right:5px;
 	}
 	
 .right-button {
+	float:right;
+	margin-left:5px;
+	}
+/* ----------- IMAGE SLIDER End ----------- */
+
+
+
+
+
+/* ----------- ABOUT/CONTACT start ----------- */
+
+#contact {
 	float:left;
+	width:15%;
+	}
+#contact img {
+	width:100%;
+	}
+
+#contact ul {
+	margin-top:10px;
+	padding:5px;
+	background-color:yellow;
 	}
 	
-/* Image Slider End*/	
-
-
-
-.project-description {
-	background-color:blue;
-	width:30%;
-	padding:1%;
-	margin:1%;
-	float:left;
+#contact li {
+	font-size:0.8em;
+	line-height:1.2em;
+	text-transform:uppercase;
+	padding:3px 0px;
+	font-family:'QuicksandBold';
 	}
 
-
-img.thumbnail {
+#about {
 	float:left;
-	width:30%;
-	margin:1%;
+	width:40%;
+	margin:0 5%;
 	}
+
+#about p {
+	padding-top:0;
+	}
+
+#sites-i-love {
+	float:right;
+	width:18%;
+	margin:0 1% 100px 1%;
+	}
+
+#sites-i-love li {
+	font-size:1.3em;
+	padding:5px 0px;
+	}
+/* ----------- ABOUT/CONTACT end ----------- */	
+
+
 
 	
-footer {
+
+
+/* ----------- FOOTER start ----------- */
+
+#copyright {
 	position:fixed;
-	bottom:1%;
-	left:1%;
+	bottom:0;
+	right:1%;
+	}
+
+#prev {
+	position:fixed;
+	bottom:0;
+	left:2%;
+	}
+
+#next {
+	position:fixed;
+	bottom:0;
+	right:2%;
+	}
+/* ----------- FOOTER end ----------- */
+
+
+
+
+
+/* ----------- LINKS start ----------- */
+
+a:link {
+	color:black;
 	}
 	
-div {
-	background-color:green;
+a:visited {
+	color:black;
 	}
+	
+a:hover {
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	}
+
+a:active {
+	background-color:yellow;
+	}
+/* ----------- LINKS end ----------- */
