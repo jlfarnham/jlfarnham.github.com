@@ -206,12 +206,26 @@ p {
 	border-top: 2px black solid;
 	}
 	
+	
+	
+	
+	
+/* ----------- IMAGE THUMBNAILS start ----------- */
 
 img.thumbnail {
-	width:22%;
 	margin:1%;
-	}
+	width:30%;
 	
+	}
+
+a.hover {
+	opacity:0.6;
+	}
+/* ----------- IMAGE THUMBNAILS end ----------- */	
+
+
+
+
 
 
 
@@ -335,6 +349,10 @@ img.thumbnail {
 
 
 /* ----------- LINKS start ----------- */
+a.hover:hover {
+	background-color:white;
+	opacity:1;
+	}
 
 a:link {
 	color:black;
