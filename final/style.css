@@ -197,7 +197,6 @@ p {
 .main-content {
 	width:90%;
 	margin:0 auto;
-	padding-bottom:600px;
 	}
 
 .work {
@@ -233,11 +232,10 @@ a.hover {
 
 .project-description {
 	background-color:yellow;
-	width:280px;
+	margin-left:2%;
+	width:25%;
 	padding:10px;
-	position:absolute;
-	right:5%;
-	z-index:-1;
+	float:left;
 	}	
 /* ----------- PROJECT DESCRIPTIONS end ----------- */
 	
@@ -250,6 +248,7 @@ a.hover {
 .image-content {
 	float:left;
 	width:800px;
+	margin-bottom:20px;
 	}
 	
 .simpleSlidewindow {
@@ -328,7 +327,10 @@ a.hover {
 #copyright {
 	position:fixed;
 	bottom:0;
-	right:1%;
+	right:15px;
+	font-size:0.7em;
+	font-family:"QuicksandLight";
+	height:4px;
 	}
 
 #prev {
@@ -372,3 +374,58 @@ a:active {
 	background-color:yellow;
 	}
 /* ----------- LINKS end ----------- */
+
+@media screen and (max-width:1250px) {
+	.project-description {
+		margin-left:1%;
+		width:20%;
+		}	
+	}
+
+@media screen and (max-width:1200px) {
+	.project-description {
+		width:13%;
+		}	
+	}
+
+@media screen and (max-width:1060px) {
+	.project-description {
+		width:375px;
+		margin:10px 0px 60px 24px;
+		}	
+	}
+
+@media screen and (max-width:800px) {
+	.second-nav li {
+		font-size:1em;
+		padding:3px;
+		}
+	
+	.main-nav {
+		right:30%;
+		}
+	}
+	
+@media screen and (max-width:600px) {
+	#contact {
+		width:25%;
+		}
+
+	#about {
+		width:65%;
+		}
+	
+	#sites-i-love {
+		float:clear;
+		position:relative;
+		width:100%;
+		margin-top:10px;
+		}
+
+	#sites-i-love li {
+		font-size:1em;
+		padding:3px 0px;
+		float:left;
+		margin-right:10px;
+		}
+	}
