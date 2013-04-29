@@ -96,15 +96,24 @@ header {
 	width:85%;
 	margin:0 auto;
 	}
-
-header h1 {
-	width:100%;
-	height:auto;
-	padding:15px 0px;
-	font-family:"LeagueGothicRegular";
+h1 {
+	margin:1% 0;
 	text-align:center;
-	font-size:6.5em;
- 	}
+	font-family:'LeagueGothicRegular';
+	font-size:7em;
+	height:auto;
+	}
+ 
+h1 span {
+	font-family:georgia;
+	font-weight:bold;
+	font-style:italic;
+	font-size:0.5em;
+	color:#cbcbcb;
+	vertical-align:middle;
+	border-top:6px double #cbcbcb;
+	border-bottom:6px double #cbcbcb;
+	}
 
 header nav {
 	width:100%;
@@ -116,7 +125,7 @@ header nav {
 
 header li {
 	display:inline-block;
-	padding:10px;
+	padding:1% 2%;
 	text-decoration:none;
 	text-transform:uppercase;
 	font-weight:bold;
@@ -163,7 +172,7 @@ a:visited {
 	text-decoration:none;
 	}
 a:hover {
-	color:#f54b4b;
+	color:#c52e2e;
 	text-decoration:none;
 	}
 		
@@ -192,9 +201,21 @@ footer {
 
 
 
-@media-screen and (max-width:600px) {
+@media screen and (max-width:750px) {
 	header h1 {font-size:4em;}
 	header li {font-size:1em;}
-	
+	footer {font-size:0.8em;}
+	h2 {font-size:1.3em;}
+	section p {font-size:0.8em;}
 	}
+
+@media screen and (max-width:550px) {
+	header li {font-size:0.8em;}
+	#cat, #dog {
+		float:none;
+		width:90%;
+		margin:0 auto;
+		padding:10px 0px;
+		}
+	
 
