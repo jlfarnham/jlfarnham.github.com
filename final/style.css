@@ -101,6 +101,7 @@ header {
 	top:0;
 	height:120px;
 	margin-bottom:50px;
+	background-image:url("images/stripes.png");
 	}
 
 h1 {
@@ -179,6 +180,13 @@ p {
 .main-nav a {
 	padding:2px;
 	}
+
+a.nav:link {
+	background-color:yellow;
+	color:black;
+	}
+	
+	
 /* ----------- MAIN NAV end ----------- */
 
 
@@ -334,7 +342,6 @@ a.hover {
 	bottom:0;
 	right:15px;
 	font-size:0.7em;
-	font-family:"QuicksandLight";
 	height:4px;
 	}
 
