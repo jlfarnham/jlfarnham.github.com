@@ -321,6 +321,8 @@ a.hover {
 	float:right;
 	width:20%;
 	margin:10px 0px 100px 3px;
+	padding:1%;
+	border:2px solid yellow;
 	}
 
 #sites-i-love li {
