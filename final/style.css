@@ -182,7 +182,7 @@ p {
 	}
 
 a.nav:link {
-	background-color:yellow;
+	background-color:#ffef66;
 	color:black;
 	}
 	
@@ -201,7 +201,7 @@ a.nav:link {
 	width:20%;
 	top:15px;
 	right:5%;
-	background-color:yellow;
+	background-color:#ffef66;
 	padding:5px;
 	}
 
@@ -241,7 +241,7 @@ a.hover {
 /* ----------- PROJECT DESCRIPTIONS start ----------- */
 
 .project-description {
-	background-color:yellow;
+	background-color:#ffef66;
 	margin-left:2%;
 	width:28%;
 	padding:10px;
@@ -296,7 +296,7 @@ a.hover {
 #contact ul {
 	margin-top:10px;
 	padding:5px;
-	background-color:yellow;
+	background-color:#ffef66;
 	}
 	
 #contact li {
@@ -322,7 +322,7 @@ a.hover {
 	width:20%;
 	margin:10px 0px 100px 3px;
 	padding:1%;
-	border:2px solid yellow;
+	border:2px solid #ffef66;
 	}
 
 #sites-i-love li {
@@ -386,7 +386,7 @@ a:hover {
 	}
 
 a:active {
-	background-color:yellow;
+	background-color:#ffef66;
 	}
 /* ----------- LINKS end ----------- */
 
