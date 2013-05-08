@@ -349,14 +349,18 @@ a.hover {
 
 #prev {
 	position:fixed;
-	bottom:0;
-	left:2%;
+	bottom:40px;
+	right:2%;
+	font-size:1.2em;
+	padding:0
 	}
 
 #next {
 	position:fixed;
-	bottom:0;
+	bottom:15px;
 	right:2%;
+	font-size:1.2em;
+	padding:0
 	}
 /* ----------- FOOTER end ----------- */
 
